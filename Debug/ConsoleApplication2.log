@@ -1,0 +1,5 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\Qska\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(46,32): warning C4305: '=': truncation from 'int' to 'char'
+C:\Users\Qska\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(46,28): warning C4309: '=': truncation of constant value
+C:\Users\Qska\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(67): warning C4715: 'find_': not all control paths return a value
+  ConsoleApplication2.vcxproj -> C:\Users\Qska\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.exe
