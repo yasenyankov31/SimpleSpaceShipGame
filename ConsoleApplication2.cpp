@@ -136,22 +136,6 @@ int main()
 
 	while (true)
 	{
-		string* foo = std::find(std::begin(board[8]), std::end(board[8]), "D");
-
-		if (foo != std::end(board[8]))
-		{
-			if (board[8][Find_index(board[9], player)] == "D")
-				break;
-			else
-			{
-				for (int j = 1; j < 10; j++)
-				{
-					board[8][j] = " ";
-				}
-				board[8][0] = "*";
-				board[8][11] = "*";
-			}
-		}
 		for (int i = 1; i < 9; i++)
 		{
 			for (int j = 1; j < 10; j++)
@@ -168,6 +152,24 @@ int main()
 				}
 			}
 		}
+
+		string* foo = std::find(std::begin(board[8]), std::end(board[8]), "D");
+
+		if (foo != std::end(board[8]))
+		{
+			if (board[8][Find_index(board[9], player)] == "D")
+				break;
+			else
+			{
+				for (int j = 1; j < 10; j++)
+				{
+					board[8][j] = " ";
+				}
+				board[8][0] = "*";
+				board[8][11] = "*";
+			}
+		}
+		
 
 		if (counter == 3)
 		{
